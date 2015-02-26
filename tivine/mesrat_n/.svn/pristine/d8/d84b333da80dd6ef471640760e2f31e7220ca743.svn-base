@@ -1,0 +1,243 @@
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+    /*position: absolute;*
+/    /*margin: 0px;*/
+    width: 100%;
+    height: 100%;
+    background: url('http://tivine.com/images/bg-un_blured.jpg');
+}
+
+/*ALL TXT WHITE*/
+
+*{
+	color: white;
+}
+
+
+/*HEADER*/
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #58ACFA;
+}
+
+#header img{
+	height: 80%;
+	padding-left: ;
+}
+
+#title{
+	font-size: 50%;
+}
+
+#header #center{
+	text-align: center;
+	width: 100%;
+	height: 100%
+}
+
+#corps{
+	width: 100%;
+	height: 80%;
+}
+
+#chaine p{
+	text-align: center;
+}
+
+#liste_chaine{
+	float: left;
+    width:100%;
+    height: 100%;
+    background-color: #D8D8D8;
+    overflow-y:scroll;
+	display: inline-block;
+}
+
+#list_top{
+	float: right;
+	width: 15%;
+	height: 100px;
+}
+
+.icon{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.title{
+	color: white;
+	font-size: 215%;
+	vertical-align: top;
+}
+
+.logo{
+	height: 25px;
+}
+
+/*TOUTE L'INFORMATION*/
+
+#all_info{
+	width: 69%;
+	height: 100%;
+    overflow-y:scroll;
+	float: left;
+}
+
+#deco{
+	width: 100%;
+}
+
+#deco img{
+	margin-top: 10%;
+	height: 75px;
+}
+
+/*#emission{
+	display: none;
+	width: 99%;
+	height: 300px;
+}
+
+#emission p{
+	font-size: small;
+}*/
+
+/*PROGRAMME DU JOUR*/
+
+#programme{
+	width: 16%;
+	height: 100%;
+	float: right;
+    overflow-y:scroll;
+	display: inline-block;
+	padding-left: 10px; 
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#programme .img_prog{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#programme p{
+	margin: 0;
+}
+
+/*FOOTER*/
+
+#footer{
+	width: 100%;
+	height: 10%;
+	background-color: #58ACFA;
+}
+
+.img_foot{
+	margin-top: 5px;
+	margin-left: 2%;
+	height: 90%;
+}
+
+/*RESPOSIVE STYLE*/
+
+@media screen and (max-width: 1500px){
+	.img_prog{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1050px){
+/*	#emission p{
+		font-size: x-small;
+	}*/
+
+	.list-group a{
+		font-size: 0;
+	}
+
+	.logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+	.list-group img{
+		height: 20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#emission{
+		height: 300px;
+	}
+
+/*	#emission p{
+		font-size: xx-small;
+	}*/
+}
+
+/*Méthode pour faire un volet coulissant*/
+
+#volet {
+	float: left;
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: -15%;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+#volet a.ouvrir {
+	position: absolute;
+    text-decoration: none;
+    right: -50px;
+}
+
+#volet:target {
+    left: 0;
+}
+
+#volet a.fermer {
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    right: -50px;
+}
+#volet_clos:target #volet {
+    left: -285px;
+}
+#volet:target a.ouvrir {
+    display: none;
+}
+#volet:target a.fermer {
+    display: block;
+}

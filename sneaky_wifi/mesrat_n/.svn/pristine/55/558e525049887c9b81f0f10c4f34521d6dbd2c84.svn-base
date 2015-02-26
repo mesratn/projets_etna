@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<title>Sneaky Wifi</title>	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/mon_css.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="recherche.html">Recherche</a></li>
+					<li class="active"><a href="bon_plans.html">Bon Plans</a></li>
+					<li><a href="about.html">L'équipe</a></li>
+					<li><a href="contact.php">Contact</a></li>	
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container" id="recherche_margin">
+		<ol class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li class="active">Bon Plans</li>
+		</ol>
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-md-12 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Bon Plans</h1>
+				</header>
+			</article>
+
+			<!-- /Article -->
+		</div>
+		<div class="row">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  			<!-- Indicators -->
+  				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  				</ol>
+  			<!-- Wrapper for slides -->
+  				<div class="carousel-inner" role="listbox">
+    				<div class="item active">
+      				<img src="assets/images/parc.png" alt="..." class="images_carrou">
+      					<div class="carousel-caption">
+      						★ Petit Wi-Fi dans la prairie<br>
+      						Ici, vous pianotez sur le clavier avec comme fond sonore le rire des enfants et si tout va bien, les petits oiseaux. Lieu de détente et de convivialité, le Parc Georges Brassens vous plaira pour son ambiance familiale.
+      						45 rue d'Aubervilliers, 18e - M° Stalingrad 
+      					</div>
+   			 		</div>
+    			<div class="item">
+      				<img src="assets/images/Jardin_eole.png" alt="..."class="images_carrou">
+    		  		<div class="carousel-caption">
+    		  			★ Auprès de ma borne <br>
+    		  			Rendez-vous au Jardin d’Eole, ici pas de problème de place, on se connecte la tête au soleil, dans un immense jardin, entre canal planté, pelouse fleurie et grande prairie ! <br>
+						2 place Jacques Marette, 15e - Métro Porte de Vanves
+      				</div>
+    			</div>
+    			<div class="item">
+      				<img src="assets/images/20e.png" alt="..."class="images_carrou">
+    		  		<div class="carousel-caption">
+    		  			★ Perchée <br>
+						Sur l'une des montagnes de Paris, offrez-vous un panorama de dingue au Parc de Belleville. C’est si bon de travailler avec Paris à ses pieds.<br>
+						45 rue des Couronnes, 20e - Métro Couronnes
+      				</div>
+    			</div>
+    			<div class="item">
+      				<img src="assets/images/cafe_craft.png" alt="..."class="images_carrou">
+    		  		<div class="carousel-caption">
+    		  			★ Home sweet home<br> 
+						Marre de travailler à la maison ? Le Café Craft est un lieu fait pour vous, cosy, calme et accueillant. Et puis si vous n'avez pas envie de bosser, vous pourrez toujours grignoter un bout ou prendre un [vrai] bon café.<br>
+						24 rue des Vinaigriers 75010 Paris. M° Jacques Bonsergent, Gare de l'Est. 
+      				</div>
+    			</div>
+  		</div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		</div>
+	</div>	<!-- /container -->
+	<footer id="footer">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>
+								<a href="mailto:#">mesrat_n@etna-alternance.net</a><br>
+								<a href="mailto:#">lin_d@etna-alternance.net<br>
+								<a href="mailto:#">lim_c@etna-alternance.net</a><br>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow me</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons clearfix">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Projet</h3>
+						<div class="widget-body">
+							<img src="assets/images/logo_CodeCamp1.png" id="logo_codecamp">
+							<img src="assets/images/etna.png" id="logo_etna">
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="#">Home</a> |
+								<a href="recherche.html">Recherche</a> |
+								<a href="about.html">L'équipe</a> |
+								<a href="contact.php">Contact</a> 
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; Sneaky Wifi
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+	
+	<!-- Google Maps -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script> 
+	<script src="assets/js/google-map.js"></script>
+	
+	<script type="text/javascript" src="../js/recherche.js"></script>
+</body>
+</html>
